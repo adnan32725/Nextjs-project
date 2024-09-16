@@ -56,7 +56,7 @@ const Navbar = () => {
               Contact
             </Link>
             <Link href="/portfolio" className="text-white hover:text-gray-400">
-              Portfolio
+              Portfolio   
             </Link>
             <Link href="/blog" className="text-white hover:text-gray-400">
               Blog
