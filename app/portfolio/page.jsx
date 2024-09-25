@@ -1,7 +1,5 @@
 'use client';
-
 export default function Portfolio() {
-  // Sample data for portfolio items
   const projects = [
     {
       title: 'Project One',
@@ -18,7 +16,7 @@ export default function Portfolio() {
     {
       title: 'Project Three',
       description: 'A brief description of Project Three. This project demonstrates my experience with Node.js and Express.',
-      imageUrl: '/project3.jpg', // Replace with your project image
+      imageUrl: '/project3.jpg',
       link: '/project3', // Replace with your project details page or external link
     },
   ];
