@@ -9,10 +9,8 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-700 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        {/* Logo */}
         <div className="text-white text-2xl font-bold">MyWebsite</div>
 
-        {/* Hamburger Menu (for mobile) */}
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -21,8 +19,6 @@ const Navbar = () => {
             <FiMenu className="w-6 h-6" /> {/* React Icon for the Menu */}
           </button>
         </div>
-
-        {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
           <Link href="/" className="text-white hover:text-gray-400">
             Home
@@ -41,8 +37,6 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
-
-      {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden">
           <div className="flex flex-col space-y-2 mt-2">
