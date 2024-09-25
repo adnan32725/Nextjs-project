@@ -1,7 +1,6 @@
 'use client';
 
 export default function Blog() {
-  // Sample data for blog posts
   const posts = [
     {
       title: 'Understanding React Hooks',
