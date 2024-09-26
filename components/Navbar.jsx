@@ -1,7 +1,7 @@
 'use client'
 import { useState } from "react";
 import Link from "next/link";
-import { FiMenu } from "react-icons/fi"; // Importing the Menu Icon from React Icons
+import { FiMenu } from "react-icons/fi"; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
