@@ -7,6 +7,7 @@ export default function About() {
             <p className="text-lg max-w-2xl mx-auto">  
               I'm a passionate Full Stack Developer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building responsive web applications with the latest technologies.
             </p>
+              
           </div>
         </section>
       </div>
